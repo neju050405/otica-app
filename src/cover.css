@@ -12,20 +12,30 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .left-badge{
+    .left-badge {
         width: 40%;
         border-radius: 0 10px 10px 0;
     }
+
+    .left-badge p {
+        font-size: large;
+    }
+
     .right-badge {
         width: 60%;
     }
 }
 
 @media only screen and (max-width: 599px) {
-    .left-badge{
+    .left-badge {
         width: 100%;
         border-radius: 0;
     }
+
+    .left-badge p {
+        font-size: medium;
+    }
+
     .right-badge {
         width: 0;
     }
@@ -52,7 +62,6 @@
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
     font-weight: 400;
-    font-size: large;
     word-spacing: 0.1rem;
 }
 
