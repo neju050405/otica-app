@@ -1,0 +1,17 @@
+.locations {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.location-left, .location-right {
+    width: 40%;
+}
+
+.location-left {
+    border-right: 1px black solid;
+}
+
+.location img {
+    width: 100px;
+}

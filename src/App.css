@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+  background-color: rgb(8, 0, 45);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    transition: ease 500ms;
+  }
+    
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+      background: rgb(45, 84, 162);
+      transition: color 500ms ease;
+    }
+    
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 23, 107);
+    border-radius: 10px;
+  }
+
+.App {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.blocks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    align-items: center;
+    width: 120%;
+    background-color: rgb(144, 0, 0);
+    z-index: 200;
+    box-shadow: 0px 1px 20px rgb(63, 36, 36);
+}
+
+@media (min-width:1025px) {
+  .cover-container {
+    top: 94px;
+}
+}
+
+.cover-container {
+    position: relative;
+    width: 100%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 40px rgb(196, 196, 196);
+}
+
+.brands-container {
+    width: 100%;
+    height: 500px;
+    margin: 300px 0;
+}
+
+.locations-container {
+  background-color: white;
+}
