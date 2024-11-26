@@ -21,6 +21,12 @@
         font-size: large;
     }
 
+    .left-badge-logo {
+        width: 60%;
+        height: 50%;
+        margin-left: 18%;
+    }
+
     .right-badge {
         width: 60%;
     }
@@ -33,7 +39,13 @@
     }
 
     .left-badge p {
-        font-size: medium;
+        font-size: 15.2px;
+    }
+
+    .left-badge-logo {
+        width: 75%;
+        height: 60%;
+        margin-left: 10%;
     }
 
     .right-badge {
@@ -63,10 +75,4 @@
     font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
     font-weight: 400;
     word-spacing: 0.1rem;
-}
-
-.left-badge-logo {
-    width: 60%;
-    height: 50%;
-    margin-left: 18%;
 }
