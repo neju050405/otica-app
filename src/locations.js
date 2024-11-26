@@ -4,23 +4,45 @@ import map from './img/map.png';
 
 const Locations = () => {
     return (
-        <div className="locations">
+        <div className="locations" id="endereços">
             <div className="location-left">
-                <div className="location-cel">(81)996607481</div>
-                <div className="location-workin-hours">7h30 - 18h00
-                    Segunda - Sexta</div>
-                <div className="location-adress">
-                    str. Cascalheira, 1800 - Parque Das Mangabas, Camaçari - BA, 42800-970
-                    <img src={map} />
+                <h1>Glória do Goitá</h1>
+                <div className="location-content">
+                    <div className="location-col1">
+                        <h2>Endereço</h2>
+                        <p>R. Me. de Deus, 145 - Centro,<br />
+                            Glória do Goitá - PE,<br />
+                             55620-000<br />
+                            (81)996607481
+                        </p>
+                    </div>
+                    <div className="location-col2">
+                        <h2>Horário de Funcionamento</h2>
+                        <p>7h30 - 18h00<br />
+                        Segunda - Sexta<br /><br />
+                        8h00 - 12h00<br />
+                        Sábado</p>
+                    </div>
                 </div>
             </div>
             <div className="location-right">
-                <div className="location-cel">(81)996607481</div>
-                <div className="location-workin-hours">7h30 - 18h00
-                    Segunda - Sexta</div>
-                <div className="location-adress">
-                    str. Cascalheira, 1800 - Parque Das Mangabas, Camaçari - BA, 42800-970
-                    <img src={map} />
+                <h1>Lagoa do Itaenga</h1>
+                <div className="location-content">
+                    <div className="location-col1">
+                        <h2>Endereço</h2>
+                        <p>Av. São Sebastião - Centro, <br />
+                            Lagoa do Itaenga - PE,<br />
+                             55840-000<br />
+                            (81)996607481
+                        </p>
+                    </div>
+                    <div className="location-col2">
+                        <h2>Horário de Funcionamento</h2>
+                        <p>7h30 - 18h00<br />
+                        Segunda - Sexta<br /><br />
+                        8h00 - 12h00<br />
+                        Sábado</p>
+                    </div>
                 </div>
             </div>
         </div>
