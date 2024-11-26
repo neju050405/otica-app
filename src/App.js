@@ -24,6 +24,7 @@ function App() {
           <Brands></Brands>
         </div>
         <div className="locations-container">
+          <Locations></Locations>
         </div>
       </div>
     </div>
@@ -31,3 +32,4 @@ function App() {
 }
 
 export default App;
+
