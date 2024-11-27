@@ -1,22 +1,16 @@
 .locations {
     display: flex;
-    flex-direction: row;
     width: 100%;
-    padding: 10% 5%;
     background-image: url("./img/locations-bg.png");
     background-position: right;
     background-size: cover;
 }
 
-.location-left {
-    border-right: 1px rgb(192, 192, 192) solid;
-}
-
-.location-left, .location-right {
-    width: 50%;
+.location-left,
+.location-right {
     display: flex;
     flex-direction: column;
-    background-color: rgba(254, 225, 225, 0.5);
+    background-color: rgba(254, 225, 225, 0.55);
     padding: 10% 0;
 }
 
@@ -25,9 +19,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
+
 }
 
 .locations-name {
@@ -41,11 +33,88 @@
 }
 
 .locations h2 {
-    font-size: medium;
     white-space: nowrap;
 }
 
 .locations p {
     white-space: pre;
-    font-size: small;
+}
+
+@media only screen and (max-width: 1300px) {
+    .locations {
+        flex-direction: row;
+        padding: 10% 5%;
+    }
+
+    .location-left,
+    .location-right {
+        width: 50%;
+    }
+
+    .location-content {
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+    }
+
+    .locations h1 {
+        font-size: 40px;
+    }
+
+    .locations h2 {
+        font-size: large;
+    }
+
+    .locations p {
+        font-size: medium;
+    }
+
+    .location-right {
+        border-radius: 0 25px 25px 0;
+    }
+
+    .location-left {
+        border-right: 1px rgb(192, 192, 192) solid;
+        border-radius: 25px 0 0 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 599px) {
+    .locations {
+        flex-direction: column;
+        padding: 6% 6%;
+    }
+
+    .location-left, .location-right {
+        width: 100%;
+    }
+    
+    .location-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .locations h1 {
+        font-size: 35px;
+    }
+
+    .locations h2 {
+        font-size: large;
+    }
+
+    .locations p {
+        font-size: medium;
+    }
+
+    .location-right {
+        border-radius: 0 0 15px 15px;
+    }
+
+    .location-left {
+        border-bottom: 1px rgb(100, 100, 100) solid;
+        border-radius: 15px 15px 0 0;
+    }
+    
 }
