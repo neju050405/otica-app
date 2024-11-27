@@ -15,6 +15,7 @@
     .left-badge {
         width: 40%;
         border-radius: 0 10px 10px 0;
+        padding-top: 0;
     }
 
     .left-badge p {
@@ -36,10 +37,12 @@
     .left-badge {
         width: 100%;
         border-radius: 0;
+        padding-top: 400px;
     }
 
     .left-badge p {
-        font-size: 15.2px;
+        font-size: 18px;
+        padding-top: 50px;
     }
 
     .left-badge-logo {
@@ -76,3 +79,4 @@
     font-weight: 400;
     word-spacing: 0.1rem;
 }
+
