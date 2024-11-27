@@ -6,6 +6,7 @@ import Brands from './brands';
 import './whatsappbtn.css';
 import Socials from './socials';
 import Locations from './locations';
+import BottomNav from './bottomnav';
 
 function App() {
   return (
@@ -26,10 +27,12 @@ function App() {
         <div className="locations-container">
           <Locations></Locations>
         </div>
+        <div className="bottomnav-container">
+          <BottomNav></BottomNav>
+        </div>
       </div>
     </div>
   );
 }
 
 export default App;
-
