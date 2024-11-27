@@ -1,0 +1,59 @@
+.bottomnav #navbarNav {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.bottomnav nav {
+    transition: 500ms ease !important;
+}
+
+.bottomnav nav:hover {
+    background-color: rgb(198, 198, 198) !important;
+}
+
+@media only screen and (max-width: 1300px) {
+    .bottomnav #navbarNav {
+        left: 365px;
+        height: 60px;
+    }
+
+    .bottomnav ul,
+    .bottomnav li {
+        position: relative;
+        left: 34px;
+    }
+
+    .bottomnav ul,
+    .bottomnav li,
+    .bottomnav a {
+        width: 500px;
+    }
+
+    svg {
+        position: relative;
+        left: 230px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .bottomnav #navbarNav {
+        left: 20px;
+        height: 160px;
+    }
+
+    .bottomnav ul, .bottomnav li {
+        position: relative;
+        left: -30px;
+    }
+
+    .bottomnav ul, .bottomnav li, .bottomnav a {
+        width: 500px;
+    }
+
+    svg {
+        position: relative;
+        left: 230px;
+    }
+}
