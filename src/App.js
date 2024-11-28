@@ -7,6 +7,8 @@ import './whatsappbtn.css';
 import Socials from './socials';
 import Locations from './locations';
 import BottomNav from './bottomnav';
+import instagram from './img/instagram.png';
+import gmail from './img/gmail.png';
 
 function App() {
   return (
