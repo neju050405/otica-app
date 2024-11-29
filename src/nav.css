@@ -2,29 +2,12 @@
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    right: 5%;
-    display: flex;
-    flex-direction: row;
-    gap: 6%;
-    width: 85%;
-}
-
-nav {
-    opacity: 1;
-}
-
-.navbar-brand {
-    width: 10%;
 }
 
 .nav-link {
-    font-size: 110%;
-    font-weight: 500;
-    width: 100%;
-    text-wrap: nowrap;
     color: rgb(0,0,0);
-    opacity: 0.8;
+    font-size: 115%;
+    font-weight: 500;
 }
 
 .nav-link:hover {
@@ -32,35 +15,36 @@ nav {
 }
 
 @media only screen and (max-width: 1300px) {
-    .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        gap: 4%;
-    }
-    
     .logoMark {
-        width: 100%;
+        width: 30%;
+        position: relative;
+        right: 80px;
     }
 
-    .nav-container button {
+    .navbar-nav {
         position: relative;
-        left: 0;
+        right: 245px;
+    }
+
+    .nav-link {
+        margin-left: 10px;
     }
 }
 
 @media only screen and (max-width: 599px) {
-    .navbar-nav {
-        display:inherit;
+    .logoMark {
+        width: 20%;
+        position: relative;
+        left: 10px;
     }
 
-    .logoMark {
-        width: 150%;
+    .navbar-nav {
         position: relative;
-        left: 20px;
+        right: 0;
     }
 
     .nav-container button {
         position: relative;
-        left: 30px;
+        right: 10px;
     }
 }
