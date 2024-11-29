@@ -1,6 +1,6 @@
 import React from "react";
 import logoMark from "./img/logoMark.png";
-import './navv.css';
+import './nav.css';
 
 const Nav = () => {
     return (
