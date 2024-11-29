@@ -9,12 +9,19 @@ import Locations from './locations';
 import BottomNav from './bottomnav';
 import instagram from './img/instagram.png';
 import gmail from './img/gmail.png';
+import whatsapp from './img/whatsapp.png';
 
 function App() {
   return (
     <div className="App">
-      <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=+5581996695868&text=Oi"> 
-          <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg"/> 
+      <a href="mailto:gmail@provedor.com.br" className="icon-gmail">
+        <img src={gmail}></img>
+      </a>
+      <a href="https://www.instagram.com/riootica1/" className="icon-instagram">
+        <img src={instagram}></img>
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=+5581996695868&text=Oi" className="icon-whatsapp">
+        <img src={whatsapp}></img>
       </a>
       <div className="blocks-container">
         <div className="nav-container">
