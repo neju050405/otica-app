@@ -1,33 +1,21 @@
-import React, { Children } from "react";
+import React from "react";
 import logoMark from "./img/logoMark.png";
-import './nav.css';
+import './navv.css';
 
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
                 <a className="navbar-brand" href="#"><img src={logoMark} className="logoMark" /></a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Sobre Nós</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#brands">Marcas</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#sobre">Redes</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#endereços">Endereços</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Fale Conosco</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a className="nav-link" href="#">Sobre Nós</a>
+                        <a className="nav-link" href="#brands">Marcas</a>
+                        <a className="nav-link" href="#endereços">Endereços</a>
+                    </div>
                 </div>
             </div>
         </nav>
