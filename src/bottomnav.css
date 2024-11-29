@@ -22,7 +22,7 @@
     .bottomnav ul,
     .bottomnav li {
         position: relative;
-        left: 34px;
+        right: 4px;
     }
 
     .bottomnav ul,
