@@ -3,7 +3,6 @@ import Nav from './nav'
 import Cover from './cover';
 import Services from './services';
 import Brands from './brands';
-import './whatsappbtn.css';
 import Socials from './socials';
 import Locations from './locations';
 import BottomNav from './bottomnav';
