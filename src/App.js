@@ -11,14 +11,14 @@ import whatsapp from './img/whatsapp.png';
 function App() {
   return (
     <div className="App">
-      <a href="mailto:nehemiasjunior0504@gmail.com" target="_blank" className="icon-gmail">
-        <img src={gmail}></img>
+      <a href="mailto:gmail@provedor.com.br" target="_blank" className="icon-gmail">
+        <img src={gmail} alt="Gmail" title="Gmail"></img>
       </a>
       <a href="https://www.instagram.com/riootica1/" target="_blank" className="icon-instagram">
-        <img src={instagram}></img>
+        <img src={instagram} alt="Instagram" title="Instagram"></img>
       </a>
       <a href="https://api.whatsapp.com/send?phone=+5581996695868&text=Oi" target="_blank" className="icon-whatsapp">
-        <img src={whatsapp}></img>
+        <img src={whatsapp} alt="WhatsApp" title="WhatsApp"></img>
       </a>
       <div className="blocks-container">
         <div className="nav-container">
