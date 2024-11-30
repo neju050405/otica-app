@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <a href="mailto:gmail@provedor.com.br" target="_blank" className="icon-gmail">
-        <img src={gmail} alt="Gmail" title="Gmail"></img>
+        <img src={gmail} alt="Gmail" title="Gmail: riootica@gmail.com"></img>
       </a>
       <a href="https://www.instagram.com/riootica1/" target="_blank" className="icon-instagram">
         <img src={instagram} alt="Instagram" title="Instagram"></img>
