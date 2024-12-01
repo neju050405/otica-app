@@ -11,8 +11,8 @@ import whatsapp from './img/whatsapp.png';
 function App() {
   return (
     <div className="App">
-      <a href="mailto:gmail@provedor.com.br" target="_blank" className="icon-gmail">
-        <img src={gmail} alt="Gmail" title="Gmail: riootica@gmail.com"></img>
+      <a href="mailto:riootica1@gmail.com" target="_blank" className="icon-gmail">
+        <img src={gmail} alt="Gmail" title="Gmail: riootica1@gmail.com"></img>
       </a>
       <a href="https://www.instagram.com/riootica1/" target="_blank" className="icon-instagram">
         <img src={instagram} alt="Instagram" title="Instagram"></img>
