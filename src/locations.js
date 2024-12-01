@@ -10,15 +10,15 @@ const Locations = () => {
                 <div className="location-content">
                     <div className="location-col1">
                         <h2>Endereço</h2>
-                        <p>R. Me. de Deus, 145 - Centro,<br />
+                        <p>R. Madre de Deus, 159 - Centro,<br />
                             Glória do Goitá - PE,<br />
                              55620-000<br />
-                            (81)996607481
+                            (81)996617352
                         </p>
                     </div>
                     <div className="location-col2">
                         <h2>Horário de Funcionamento</h2>
-                        <p>7h30 - 18h00<br />
+                        <p>7h30 - 17:30h<br />
                         Segunda - Sexta<br /><br />
                         8h00 - 12h00<br />
                         Sábado</p>
@@ -30,15 +30,15 @@ const Locations = () => {
                 <div className="location-content">
                     <div className="location-col1">
                         <h2>Endereço</h2>
-                        <p>Av. São Sebastião - Centro, <br />
+                        <p>Av. São Sebastião, 174 - Centro, <br />
                             Lagoa do Itaenga - PE,<br />
                              55840-000<br />
-                            (81)996607481
+                            (81)979097925
                         </p>
                     </div>
                     <div className="location-col2">
                         <h2>Horário de Funcionamento</h2>
-                        <p>7h30 - 18h00<br />
+                        <p>7h30 - 17:30<br />
                         Segunda - Sexta<br /><br />
                         8h00 - 12h00<br />
                         Sábado</p>
