@@ -18,7 +18,7 @@ const Locations = () => {
                     </div>
                     <div className="location-col2">
                         <h2>Horário de Funcionamento</h2>
-                        <p>7h30 - 17:30h<br />
+                        <p>7h30 - 17h30<br />
                         Segunda - Sexta<br /><br />
                         8h00 - 12h00<br />
                         Sábado</p>
@@ -38,7 +38,7 @@ const Locations = () => {
                     </div>
                     <div className="location-col2">
                         <h2>Horário de Funcionamento</h2>
-                        <p>7h30 - 17:30<br />
+                        <p>7h30 - 17h30<br />
                         Segunda - Sexta<br /><br />
                         8h00 - 12h00<br />
                         Sábado</p>
