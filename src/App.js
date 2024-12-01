@@ -17,7 +17,7 @@ function App() {
       <a href="https://www.instagram.com/riootica1/" target="_blank" className="icon-instagram">
         <img src={instagram} alt="Instagram" title="Instagram"></img>
       </a>
-      <a href="https://api.whatsapp.com/send?phone=+5581996695868&text=Oi" target="_blank" className="icon-whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=+5581996617352&text=Oi" target="_blank" className="icon-whatsapp">
         <img src={whatsapp} alt="WhatsApp" title="WhatsApp"></img>
       </a>
       <div className="blocks-container">
