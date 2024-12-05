@@ -71,7 +71,11 @@ body {
   align-items: center;
   background-color: white;
   z-index: 200;
-  box-shadow: 0px 1px 20px rgb(63, 36, 36);
+  box-shadow: 0px 4px 20px rgb(63, 36, 36);
+}
+
+.bottomnav-container {
+  box-shadow: 0px -4px 20px rgb(63, 36, 36);
 }
 
 @media (min-width:1025px) {
@@ -87,17 +91,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 1px 40px rgb(196, 196, 196);
+  z-index: 100
 }
 
 .brands-container {
   width: 100%;
+  box-shadow: 0px 6px 60px rgb(40, 3, 100);
+  z-index: 50;
 }
 
 .locations-container {
   background-color: white;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 600px) {
   .brands-container {
     padding-top: 250px;
     height: 900px;
@@ -109,13 +116,14 @@ body {
   }
 }
 
-@media only screen and (max-width: 599px) {
-
+@media only screen and (min-width: 100px) and (max-width: 599px) {
   .brands-container {
+    padding-top: 250px;
     height: 700px;
   }
 
   .nav-container {
     width: 100%;
+    padding: 0 10px;
   }
 }
