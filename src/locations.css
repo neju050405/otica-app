@@ -10,8 +10,16 @@
 .location-right {
     display: flex;
     flex-direction: column;
-    background-color: rgba(254, 225, 225, 0.55);
+    background-color: rgba(254, 225, 225, 0.70);
     padding: 10% 0;
+    border: 2px black solid;
+
+    transition: 700ms ease;
+}
+
+.location-left:hover,
+.location-right:hover {
+    box-shadow: 2px 0px 35px rgb(209, 207, 207);
 }
 
 .location-content {
@@ -40,7 +48,7 @@
     white-space: pre;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 600px) {
     .locations {
         flex-direction: row;
         padding: 10% 5%;
@@ -51,10 +59,18 @@
         width: 50%;
     }
 
+    .location-left {
+        margin-right: 30px;
+    }
+
+    .location-right {
+        margin-left: 30px;
+    }
+
     .location-content {
         display: flex;
         flex-direction: row;
-        gap: 10%;
+        gap: 4%;
     }
 
     .locations h1 {
@@ -70,14 +86,13 @@
     }
 
     .location-right {
-        border-radius: 0 25px 25px 0;
+        border-radius: 20px;
     }
 
     .location-left {
-        border-right: 1px rgb(192, 192, 192) solid;
-        border-radius: 25px 0 0 25px;
+        border-radius: 20px;
     }
-    
+
 }
 
 @media only screen and (max-width: 599px) {
@@ -86,10 +101,22 @@
         padding: 6% 6%;
     }
 
-    .location-left, .location-right {
+    .location-left,
+    .location-right {
         width: 100%;
+        border-radius: 10px;
+        margin-right: 0;
+        margin-left: 0;
     }
-    
+
+    .location-left {
+        margin-bottom: 10px;
+    }
+
+    .location-right {
+        margin-top: 10px;
+    }
+
     .location-content {
         display: flex;
         flex-direction: column;
@@ -107,14 +134,4 @@
     .locations p {
         font-size: medium;
     }
-
-    .location-right {
-        border-radius: 0 0 15px 15px;
-    }
-
-    .location-left {
-        border-bottom: 1px rgb(100, 100, 100) solid;
-        border-radius: 15px 15px 0 0;
-    }
-    
 }
