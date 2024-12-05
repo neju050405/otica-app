@@ -8,17 +8,19 @@ import instagram from './img/instagram.png';
 import gmail from './img/gmail.png';
 import whatsapp from './img/whatsapp.png';
 
+
+
 function App() {
   return (
     <div className="App">
       <a href="mailto:riootica1@gmail.com" target="_blank" className="icon-gmail">
-        <img src={gmail} alt="Gmail" title="Gmail: riootica1@gmail.com"></img>
+        <img src={gmail} alt="Gmail" title="riootica1@gmail.com"></img>
       </a>
       <a href="https://www.instagram.com/riootica1/" target="_blank" className="icon-instagram">
-        <img src={instagram} alt="Instagram" title="Instagram"></img>
+        <img src={instagram} alt="Instagram" title="@riootica1"></img>
       </a>
       <a href="https://api.whatsapp.com/send?phone=+5581996617352&text=Oi" target="_blank" className="icon-whatsapp">
-        <img src={whatsapp} alt="WhatsApp" title="WhatsApp"></img>
+        <img src={whatsapp} alt="WhatsApp" title="(81)996617352"></img>
       </a>
       <div className="blocks-container">
         <div className="nav-container">
@@ -42,3 +44,4 @@ function App() {
 }
 
 export default App;
+
