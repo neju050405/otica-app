@@ -2,7 +2,6 @@ import React from "react";
 import './brands.css';
 import lavorato from './img/lavorato.png';
 import rayban from './img/rayban.png';
-import oakley from './img/oakley.png';
 import signus from './img/signus.png';
 import bulget from './img/bulget.jpg';
 import disney from './img/disney.jpg';
