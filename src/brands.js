@@ -31,9 +31,6 @@ const Brands = () => {
                         <img src={lavorato} class="d-block w-50" />
                     </div>
                     <div class="carousel-item">
-                        <img src={oakley} class="d-block w-50" />
-                    </div>
-                    <div class="carousel-item">
                         <img src={signus} class="d-block w-50" />
                     </div>
                     <div class="carousel-item">
